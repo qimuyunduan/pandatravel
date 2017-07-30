@@ -1,0 +1,491 @@
+{
+    "qimu": {
+        "avatarUrl": "img/logo.png",
+        "name": "对不",
+        "joinTime": "2015年5月",
+        "backgroundUrl": "img/background.jpg",
+        "gender": "1",
+        "postSum": 25,
+        "loveSum": 244,
+        "followerSum": 45,
+        "fansSum": 89
+    },
+    "hots": [
+        {
+            "id": "124",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [
+                "img/download.jpg"
+            ],
+            "imgCount": "1",
+            "videoUrl": "",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        },
+        {
+            "id": "126",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [],
+            "imgCount": 0,
+            "videoUrl": "laugh.mp4",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        },
+        {
+            "id": "145",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [
+                "img/download.jpg",
+                "img/care.jpg"
+            ],
+            "imgCount": "2",
+            "videoUrl": "",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        },
+        {
+            "id": "165",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [
+                "img/download.jpg"
+            ],
+            "imgCount": "1",
+            "videoUrl": "",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        },
+        {
+            "id": "206",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [],
+            "imgCount": 0,
+            "videoUrl": "test.mp4",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        },
+        {
+            "id": "261",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [
+                "img/care.jpg"
+            ],
+            "imgCount": "1",
+            "videoUrl": "",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        },
+        {
+            "id": "264",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [
+                "img/download.jpg"
+            ],
+            "imgCount": "1",
+            "videoUrl": "",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        },
+        {
+            "id": "345",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [
+                "img/care.jpg"
+            ],
+            "imgCount": "1",
+            "videoUrl": "",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        },
+        {
+            "id": "356",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [
+                "img/download.jpg"
+            ],
+            "imgCount": "1",
+            "videoUrl": "",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        },
+        {
+            "id": "206",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [],
+            "imgCount": 0,
+            "videoUrl": "test.mp4",
+            "likeCount": "256",
+            "shareCount": "36",
+            "commentCount": "12"
+        }
+    ],
+    "main": [
+        {
+            "id": "206",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [],
+            "imgCount": 0,
+            "videoUrl": "laugh.mp4",
+            "text": "西藏一日游",
+            "comments": [
+                {
+                    "id": "25",
+                    "name": "小豆豆",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "好美啊"
+                },
+                {
+                    "id": "454",
+                    "name": "大梅沙",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "粉嘟嘟"
+                }
+            ]
+        },
+        {
+            "id": "06",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": ["img/download.jpg"],
+            "imgCount": 1,
+            "videoUrl": "",
+            "text": "西藏一日游",
+            "comments": [
+                {
+                    "id": "25",
+                    "name": "小豆豆",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "好美啊"
+                },
+                {
+                    "id": "454",
+                    "name": "大梅沙",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "粉嘟嘟"
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "name": "换房",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": ["img/download.jpg","img/care.jpg"],
+            "imgCount": 2,
+            "videoUrl": "",
+            "text": "",
+            "comments": [
+                {
+                    "id": "5",
+                    "name": "小豆豆",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "好美啊"
+                },
+                {
+                    "id": "44",
+                    "name": "大梅沙",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "粉嘟嘟"
+                }
+            ]
+        }
+
+
+    ],
+    "notifications": [
+        {
+            "id": "23",
+            "avatarUrl": "img/logo.png",
+            "personName": "上电脑卡",
+            "type": "2",
+            "notificationTime": "2分钟前"
+        },
+        {
+            "id": "234",
+            "avatarUrl": "img/logo.png",
+            "personName": "jwdjwd",
+            "type": "1",
+            "notificationTime": "4分钟前"
+        }
+    ],
+    "notificationSettings": [
+        {
+            "id": "23",
+            "notificationType": "1",
+            "notificationDescription": "收到他人的点赞时",
+            "notificationResult": "0"
+        },
+        {
+            "id": "35",
+            "notificationType": "2",
+            "notificationDescription": "收到他人的评论时",
+            "notificationResult": "1"
+        }
+    ],
+    "info": {
+        "avatarUrl": "img/logo.png",
+        "name": "对不",
+        "cellphone": "13796564566",
+        "email": "66645448@qq.com",
+        "gender": "1"
+    },
+    "login": {
+        "avatarUrl": "img/logo.png"
+    },
+    "followers": [
+        {
+            "id": "56",
+            "name": "sdfsd",
+            "miniBgUrl": "img/bg.png",
+            "avatarUrl": "img/logo.png",
+            "joinTime": "2010年5月",
+            "gender": "1"
+        },
+        {
+            "id": "46",
+            "name": "dsac",
+            "miniBgUrl": "img/bg.png",
+            "avatarUrl": "img/logo.png",
+            "joinTime": "2010年5月",
+            "gender": "0"
+        },
+        {
+            "id": "656",
+            "name": "dsss",
+            "miniBgUrl": "img/bg.png",
+            "avatarUrl": "img/logo.png",
+            "joinTime": "2010年6月",
+            "gender": "1"
+        },
+        {
+            "id": "696",
+            "name": "dsaac",
+            "miniBgUrl": "img/bg.png",
+            "avatarUrl": "img/logo.png",
+            "joinTime": "2010年9月",
+            "gender": "1"
+        },
+        {
+            "id": "265",
+            "name": "就你说",
+            "miniBgUrl": "img/bg.png",
+            "avatarUrl": "img/logo.png",
+            "joinTime": "2011年5月",
+            "gender": "0"
+        }
+    ],
+    "recommendations": [
+        {
+            "id": "15",
+            "name": "降低",
+            "avatarUrl": "img/logo.png",
+            "gender": "0"
+        },
+        {
+            "id": "85",
+            "name": "第几集",
+            "avatarUrl": "img/logo.png",
+            "gender": "0"
+        },
+        {
+            "id": "55",
+            "name": "nnd",
+            "avatarUrl": "img/logo.png",
+            "gender": "1"
+        },
+        {
+            "id": "45",
+            "name": "都是",
+            "avatarUrl": "img/logo.png",
+            "gender": "1"
+        },
+        {
+            "id": "5",
+            "name": "无敌",
+            "avatarUrl": "img/logo.png",
+            "gender": "0"
+        }
+    ],
+    "posts":[
+        {
+            "id": "005",
+            "name": "qimu",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": ["img/care.jpg"],
+            "imgCount": 1,
+            "videoUrl": "",
+            "text": "九寨沟一日游",
+            "comments": [
+                {
+                    "id": "5",
+                    "name": "小豆豆",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "好美啊"
+                },
+                {
+                    "id": "68",
+                    "name": "大梅沙",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "粉嘟嘟"
+                }
+            ]
+        },
+        {
+            "id": "004",
+            "name": "qimu",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [],
+            "imgCount": 0,
+            "videoUrl": "test.mp4",
+            "text": "",
+            "comments": [
+                {
+                    "id": "89",
+                    "name": "小豆豆",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "好美啊"
+                },
+                {
+                    "id": "77",
+                    "name": "大梅沙",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "粉嘟嘟"
+                }
+            ]
+        },
+        {
+            "id": "087",
+            "name": "qimu",
+            "avatarUrl": "img/logo.png",
+            "postTime": "15分钟前",
+            "bigImgsUrl": ["img/care.jpg","img/download.jpg"],
+            "imgCount": 2,
+            "videoUrl": "",
+            "text": "",
+            "comments": [
+                {
+                    "id": "89",
+                    "name": "小豆豆",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "好美啊"
+                },
+                {
+                    "id": "77",
+                    "name": "大梅沙",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "粉嘟嘟"
+                }
+            ]
+        }
+    ],
+    "loves":[
+        {
+            "id": "005",
+            "name": "qimu",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": ["img/care.jpg"],
+            "imgCount": 1,
+            "videoUrl": "",
+            "text": "九寨沟一日游",
+            "comments": [
+                {
+                    "id": "5",
+                    "name": "小豆豆",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "好美啊"
+                },
+                {
+                    "id": "68",
+                    "name": "大梅沙",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "粉嘟嘟"
+                }
+            ],
+            "isLove":1
+        },
+        {
+            "id": "004",
+            "name": "qimu",
+            "avatarUrl": "img/logo.png",
+            "postTime": "5分钟前",
+            "bigImgsUrl": [],
+            "imgCount": 0,
+            "videoUrl": "test.mp4",
+            "text": "",
+            "comments": [
+                {
+                    "id": "89",
+                    "name": "小豆豆",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "好美啊"
+                },
+                {
+                    "id": "77",
+                    "name": "大梅沙",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "粉嘟嘟"
+                }
+            ],
+            "isLove":1
+        },
+        {
+            "id": "087",
+            "name": "qimu",
+            "avatarUrl": "img/logo.png",
+            "postTime": "15分钟前",
+            "bigImgsUrl": ["img/care.jpg","img/download.jpg"],
+            "imgCount": 2,
+            "videoUrl": "",
+            "text": "",
+            "comments": [
+                {
+                    "id": "89",
+                    "name": "小豆豆",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "好美啊"
+                },
+                {
+                    "id": "77",
+                    "name": "大梅沙",
+                    "avatarUrl": "img/logo.png",
+                    "comment": "粉嘟嘟"
+                }
+            ],
+            "isLove":1
+        }
+    ]
+}

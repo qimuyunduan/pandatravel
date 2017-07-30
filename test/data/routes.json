@@ -1,0 +1,11 @@
+{
+    "/api/*": "/$1",
+    "/:name/notifications":"/notifications",
+    "/:name/info":"/info",
+    "/:name/notificationSettings":"/notificationSettings",
+    "/:name/followers":"/followers",
+    "/:name/fans":"/followers",
+    "/:name/main":"/main",
+    "/:name/posts":"/posts",
+    "/:name/loves":"/loves"
+}

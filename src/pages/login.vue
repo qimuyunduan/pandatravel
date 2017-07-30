@@ -58,7 +58,7 @@
             // init background and div height
             this.backgroundHeight = (window.innerHeight || document.body.clientHeight) + 'px';
             const backgroundIndex = parseInt(Math.random() * 10) % 4;
-            this.backgroundUrl = 'img/' + this.backgroundArr[backgroundIndex];
+            this.backgroundUrl = '/img/' + this.backgroundArr[backgroundIndex];
         },
         mounted(){
             window.onresize = (() => {

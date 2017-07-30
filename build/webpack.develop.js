@@ -18,15 +18,15 @@ module.exports = merge(baseWebpackConfig, {
         port: 3000,
         stats: { colors: true },
         hot:true,
-        // proxy: {
-        //     '/api/*':{
-        //         // target: 'http://www.pandatravel.club:4000',
-        //         target:'http://localhost:4000',
-        //         pathRewrite: {"^/api" : ""},
-        //         // changeOrigin:true,
-        //         secure: false
-        //     }
-        // }
+        proxy: {
+            '/api/*':{
+                // target: 'http://www.pandatravel.club:4000',
+                target:'http://localhost:4000',
+                pathRewrite: {"^/api" : ""},
+                // changeOrigin:true,
+                secure: false
+            }
+        }
     },
     plugins: [
         new webpack.DefinePlugin({

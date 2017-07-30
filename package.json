@@ -12,7 +12,7 @@
         "json-server": "json-server --watch test/data/db.json --port 4000 --routes test/data/routes.json",
         "webpack-server": "webpack-dev-server --progress --watch --config build/webpack.develop.js",
         "build": "webpack --config build/webpack.production.js --progress --display-chunks",
-        "dev": "yarn run json-server && yarn run webpack-server",
+        "dev": "yarn run json-server & yarn run webpack-server",
         "test": "karma start test/karma.conf.js"
     },
     "license": "MIT",

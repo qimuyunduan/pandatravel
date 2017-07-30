@@ -35,7 +35,7 @@
 <script>
     import hot from "../components/latest_post.vue";
     import {throttle,debounce} from "throttle-debounce";
-    import axios from "axios";
+    import Api from "../api";
 
     export default {
 
@@ -82,7 +82,7 @@
         methods: {
 
             fetchHotData(){
-                axios.get("/api/hots")
+                Api.getHotData()
                     .then(response => {
                         const data = response.data;
                         this.posts = data;

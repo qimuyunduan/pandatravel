@@ -61,7 +61,7 @@
 
     import notificationItem from "./notification_item.vue";
     import notificationSetting from "./notification_setting.vue";
-    import axios from "axios";
+    import Api from "../api";
     export default {
         data() {
             return {
@@ -75,7 +75,7 @@
         },
         methods:{
             getNotifications(){
-                axios.get("/api/qimu/notifications")
+                Api.getNotifications('qimu')
                     .then(response => {
                         this.notifications = response.data;
                     })

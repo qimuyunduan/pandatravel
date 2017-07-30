@@ -29,7 +29,7 @@
 <script>
     import post from "../components/post.vue";
     import recommendation from "../components/recommendation.vue";
-    import axios from "axios";
+    import Api from "../api";
 
     export default {
 
@@ -44,7 +44,7 @@
         methods:{
 
             loadPosts(){
-                axios.get("api/qimu/main")
+                Api.getUserMain('qimu')
                     .then(response => {
                         this.posts = response.data;
                     })

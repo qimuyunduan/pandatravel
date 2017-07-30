@@ -185,7 +185,7 @@
     import upload from "./upload.vue";
     import {push} from "../utilities";
     import info from "./info.vue";
-    import axios from "axios";
+    import Api from "../api";
 
     export default {
 
@@ -203,7 +203,7 @@
         methods: {
             push,
             getInfo(){
-                axios.get("/api/qimu/info")
+                Api.getInfo('qimu')
                     .then(response=>{
                         this.selfInfo = response.data;
                     })

@@ -93,6 +93,21 @@ const Api = {
      */
     getFollowers(userId){
         return axios.get(`${host}${prefix}/${userId}/followers`);
+    },
+    /**
+     * @description get latest hot data
+     * @returns {AxiosPromise}
+     */
+    getHotData(){
+        return axios.get(`${host}${prefix}/hots`);
+    },
+    /**
+     * @description get user main information
+     * @param userId
+     * @returns {AxiosPromise}
+     */
+    getUserMain(userId){
+        return axios.get(`${host}${prefix}/${userId}/main`);
     }
 
 };

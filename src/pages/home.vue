@@ -181,7 +181,7 @@
     import avatarBackground from "../components/avatar_background.vue";
     import post from "../components/post.vue";
     import follower from "../components/follower.vue";
-    import axios from "axios";
+    import Api from "../api";
     export default {
         data(){
             return {
@@ -238,7 +238,7 @@
                 this.showFansClicked = false;
             },
             getInfo(){
-                axios.get("/api/qimu")
+                Api.getPersonalInfo('qimu')
                     .then(response => {
                         this.info = response.data;
                     })
@@ -247,7 +247,7 @@
                     })
             },
             getPosts(){
-                axios.get("/api/qimu/posts")
+                Api.getPosts('qimu')
                     .then(response=>{
                         this.posts = response.data;
                     })
@@ -256,7 +256,7 @@
                     })
             },
             getLoves(){
-                axios.get("/api/qimu/loves")
+                Api.getFans('qimu')
                     .then(response=>{
                         this.loves = response.data;
                     })
@@ -265,7 +265,7 @@
                     })
             },
             getFollowers(){
-                axios.get("/api/qimu/followers")
+                Api.getFollowers('qimu')
                     .then(response=>{
                         this.myFollowers = response.data;
                     })
@@ -274,7 +274,7 @@
                     })
             },
             getFans(){
-                axios.get("/api/qimu/followers")
+                Api.getFollowers('qimu')
                     .then(response=>{
                         this.myFans = response.data;
                     })

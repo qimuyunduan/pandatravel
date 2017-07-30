@@ -83,7 +83,7 @@
 
 <script>
 
-    import  axios from "axios";
+    import  Api from "../api";
     export default {
 
         data(){
@@ -101,7 +101,7 @@
         },
         methods:{
             getNotificationSetting(){
-                axios.get("/api/qimu/notificationSettings")
+                Api.getNotificationSetting('qimu')
                     .then(response => {
                         this.setting = response.data;
                     })

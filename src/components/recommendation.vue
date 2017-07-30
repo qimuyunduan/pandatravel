@@ -46,7 +46,7 @@
 
 <script>
     import recommendationItem from "../components/recommendation_item.vue";
-    import axios from "axios";
+    import Api from "../api";
     export default {
 
         data(){
@@ -62,7 +62,7 @@
         },
         methods:{
             getRecommendations(){
-                axios.get("/api/recommendations")
+                Api.getRecommendations('qimu')
                     .then(response=>{
                         this.recommendations = response.data;
                     })

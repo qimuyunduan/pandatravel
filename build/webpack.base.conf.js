@@ -11,7 +11,7 @@ function resolve(dir) {
 
 module.exports = {
     entry: {
-        app: './src/main.js'
+        app: resolve('src/main.js')
     },
     output: {
         path: config.build.assetsRoot,
@@ -66,8 +66,6 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                include: [resolve('src'), resolve('test')],
-                exclude: [/node_modules\/(?!(ng2-.+|ngx-.+))/],
                 use: ExtractTextPlugin.extract({
                     use: ['css-loader'],
                     fallback: 'style-loader'

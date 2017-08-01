@@ -8,8 +8,8 @@ exports.assetsPath = function(_path) {
 };
 
 exports.cssLoaders = function(options) {
-    options = options || {};
 
+    options = options || {};
     var cssLoader = {
         loader: 'css-loader',
         options: {
@@ -17,7 +17,6 @@ exports.cssLoaders = function(options) {
             sourceMap: options.sourceMap
         }
     };
-
     // extract text plugin
     function generateLoaders(loader, loaderOptions) {
         var loaders = [cssLoader];
@@ -44,14 +43,13 @@ exports.cssLoaders = function(options) {
         postcss: generateLoaders('postcss'),
         less: generateLoaders('less'),
         sass: generateLoaders('sass', { indentedSyntax: true }),
-        scss: generateLoaders('sass'),
-        stylus: generateLoaders('stylus'),
-        styl: generateLoaders('stylus')
+        scss: generateLoaders('sass')
     }
 };
 
 // Generate loaders for standalone style files (outside of .vue)
 exports.styleLoaders = function(options) {
+
     var output = [];
     var loaders = exports.cssLoaders(options);
     for (var extension in loaders) {

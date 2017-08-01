@@ -2,11 +2,13 @@ var utils = require('./utils');
 var webpack = require('webpack');
 var config = require('./index');
 var merge = require('webpack-merge');
+var path = require('path');
 var baseWebpackConfig = require('./webpack.base.conf');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin');
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+// var devClient = path.resolve(__dirname,'dev-client')
 
 // add hot-reload related code to entry chunks
 Object.keys(baseWebpackConfig.entry).forEach(function(name) {

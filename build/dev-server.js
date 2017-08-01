@@ -36,6 +36,8 @@ Object.keys(proxyTable).forEach(function (context) {
   }
   app.use(proxyMiddleware(context, options));
 });
+
+
 // handle fallback for HTML5 history API
 app.use(require('connect-history-api-fallback')());
 
@@ -48,11 +50,11 @@ app.use(hotMiddleware);
 
 // serve pure static assets
 var staticPath = path.posix.join(config.build.assetsPublicPath, config.build.assetsSubDirectory);
-app.use(staticPath, express.static('./public'));
+app.use(staticPath, express.static(path.resolve(__dirname,'../dist')));
 
 module.exports = app.listen(port, function (err) {
   if (err) {
-    console.log(err);
+    console.error(err);
     return
   }
   var uri = 'http://localhost:' + port;
